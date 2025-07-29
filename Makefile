@@ -61,7 +61,7 @@ $(BUILD_DIR):
 	mkdir -p $(BUILD_DIR)
 
 run:
-	cd $(TARGET_DIR); ./$(TARGET)
+	@cd $(TARGET_DIR); ./$(TARGET)
 
 clean:
 	@rm -rf $(BUILD_DIR) $(TARGET_DIR)
